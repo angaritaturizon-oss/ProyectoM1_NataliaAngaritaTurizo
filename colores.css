@@ -1,0 +1,21 @@
+html{
+    background-color: #c3c2bf;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 35px;
+    font-weight: 700;
+    font-style: italic;
+}
+.rojo{
+    color: #ef0404;
+}
+.amarillo{
+    color: #f9f905;
+}
+.azul{
+    color: #0000ff;
+}
+
