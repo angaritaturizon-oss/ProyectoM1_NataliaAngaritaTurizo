@@ -10,6 +10,9 @@
     <h1>
         <span class="rojo">Generador</span><span class="amarillo">De</span><span class="azul">Paletas</span>
     </h1>
+
+<div class="controles">
+
 <label for="Tamaño">Selecciona el tamaño:</label>
 
 <select id="Tamaño">
@@ -26,8 +29,31 @@
     <option>HSL</option>
 </select>
 
+</div>
+
+<div id="paleta">
+    <div class="color">#FF5733</div>
+    <div class="color">#3498DB</div>
+    <div class="color">#2ECC71</div>
+    <div class="color">#F1C40F</div>
+    <div class="color">#9B59B6</div>
+    <div class="color">#E74C3C</div>
+    <div class="color">#1ABC9C</div>
+    <div class="color">#34495E</div>
+    <div class="color">#F39C12</div>
+
+</div>
+
+<div class="botones">
 <button id="generar">Generar Paleta</button>
-    
+<button id="copiar">Copiar Paleta</button>
+</div>
+
+<dialog id="dialogo">
+    <p>Paleta copiada al portapapeles</p>
+    <button id="cerrar">Cerrar</button>
+    </dialog>
+
 <script src="colores.js"></script>
 </body>
 </html>
