@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #EFDBE2;
+    background-color: #f4f4f5;
     font-family: 'Times New Roman', Times, serif;
     color:#0a0101;
 
@@ -36,18 +36,28 @@ h1{
 .controles{
     display: flex;
     justify-content: center;
-    gap: 30px; /*establece un espacio de 30px entre los elementos hijos*/
-    margin-bottom: 20px;
+    align-items: center;
+    gap: 35px; /*establece un espacio de 30px entre los elementos hijos*/
+    margin-bottom: 25px;
+}
+
+select{
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #999;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .botones{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 #generar, #copiar {
-    margin: 10px;
+    margin: 50px;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -58,16 +68,17 @@ h1{
 
 #generar:hover,
 #copiar:hover{
+    transform: translateY(-3px); /*mueve el botón hacia arriba al pasar el mouse por encima*/
     background-color: white;
     color: #AA3BF0;
 }
 
 #paleta{
     display: grid; /*establece un diseño de cuadrícula para los elementos hijos*/
-    grid-template-columns: repeat(3, 1fr); /*define el número de columnas y su tamaño mínimo y máximo*/
-    gap: 20px;
-    width: 100%;
-    max-width: 420px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /*define el número de columnas y su tamaño mínimo y máximo*/
+    gap: 25px; /*establece un espacio de 25px entre las filas*/
+    max-width: 800px; /*limita el ancho máximo del contenedor a 800px*/
+    margin: auto;
 }
 
 .item-color {
