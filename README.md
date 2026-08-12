@@ -42,6 +42,10 @@ GeneradorDePaletas/
 4. Visualiza los colores y sus respectivos valores.
 5. Utiliza **Copiar Paleta** para copiar los colores.
 
+## 🎥 Demostración
+
+[▶️ Ver video de demostración](video/prom1.mp4)
+
 ## 🌐 Proyecto
 
 El proyecto está publicado mediante GitHub Pages.
