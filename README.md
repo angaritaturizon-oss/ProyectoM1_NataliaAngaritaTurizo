@@ -44,7 +44,7 @@ GeneradorDePaletas/
 
 ## 🎥 Demostración
 
-[▶️ Ver video de demostración](video/prom1.mp4)
+[▶️ Ver video de demostración](prom1.mp4)
 
 ## 🌐 Proyecto
 
